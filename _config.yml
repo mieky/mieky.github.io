@@ -4,3 +4,6 @@ pygments: true
 timezone: Europe/Helsinki
 encoding: UTF-8
 permalink: /:title
+safe: true
+lsi: false
+
