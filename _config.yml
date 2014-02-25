@@ -1,0 +1,6 @@
+name: Mike Arvela
+markdown: redcarpet
+pygments: true
+timezone: Europe/Helsinki
+encoding: UTF-8
+permalink: /:title

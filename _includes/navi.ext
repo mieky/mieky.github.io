@@ -1,0 +1,9 @@
+<nav>
+    <ul>
+    {% for link in page.navigation %}
+        <li class="nav-item{% if page.url == link.url %} selected{% endif %}">
+            <a href="{{ link.url }}">{{ link.text }}</a>
+        </li>
+    {% endfor %}
+    </ul>
+</nav>

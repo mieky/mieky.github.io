@@ -1,0 +1,149 @@
+/* variables */
+/* clearfix */
+.clearfix:before, .content:before,
+.clearfix:after,
+.content:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.clearfix:after, .content:after {
+  clear: both; }
+
+/* reset */
+body {
+  margin: 0;
+  padding: 20px 20px 20px 30px; }
+
+a, a:link, a:visited, a:active {
+  color: #f92672;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+aside ul {
+  list-style-type: none;
+  padding: 0; }
+
+ul > ul {
+  margin-left: 30px; }
+ul li {
+  list-style-position: outside;
+  margin: 0 0 0 0;
+  padding: 0; }
+
+h1, h2, h3, h4 {
+  color: #f92672;
+  font-weight: normal;
+  font-family: "faricy-new-web", sans-serif;
+  margin: 0 0 10px 0; }
+
+h1 {
+  font-size: 34px; }
+
+h1 a {
+  text-decoration: none; }
+
+h2 {
+  font-size: 26px; }
+
+h3 {
+  font-size: 18px;
+  margin: 15px 0; }
+
+p {
+  margin: 0; }
+
+.section-title {
+  color: #999; }
+
+/* actual */
+html {
+  border-left: 0.5em solid #f92672;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-bottom: 40px;
+  min-height: 100%; }
+
+body {
+  font-family: "faricy-new-web", sans-serif;
+  font-size: 16px;
+  color: #999; }
+
+aside {
+  float: left;
+  max-width: 300px; }
+
+nav {
+  margin-bottom: 30px; }
+
+.nav-item {
+  margin-bottom: 10px; }
+
+.nav-item.selected:before {
+  content: "";
+  position: relative;
+  display: block;
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent transparent transparent #f92672;
+  width: 0;
+  left: -30px;
+  margin-bottom: -20px; }
+
+.site-title {
+  font-size: 50px;
+  margin-bottom: 0;
+  white-space: nowrap; }
+
+.site-subtitle {
+  display: none;
+  margin-bottom: 30px; }
+
+.contact-details {
+  font-size: 16px;
+  margin: 0 0 30px 0; }
+
+.links {
+  margin-bottom: 20px; }
+
+.links a {
+  display: block; }
+
+.posts a {
+  text-transform: lowercase; }
+
+.content {
+  float: left;
+  margin-top: 110px;
+  margin-top: 12px;
+  padding-left: 50px;
+  padding-top: 10px;
+  width: 500px; }
+  .content p {
+    line-height: 1.4em;
+    font-size: 16px;
+    margin: 0 0 15px 0; }
+
+.content-title {
+  margin: 0 0 25px 0; }
+
+blockquote {
+  font-style: italic;
+  line-height: 1.4em;
+  border-left: 5px solid #ddd;
+  padding-left: 20px;
+  margin-left: 0;
+  margin-right: 0; }
+
+@media only screen and (max-width: 880px) {
+  aside {
+    max-width: auto;
+    width: 100%; }
+
+  .content {
+    clear: both;
+    padding-left: 0;
+    max-width: 550px;
+    width: 100%; } }

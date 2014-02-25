@@ -1,0 +1,61 @@
+---
+navigation:
+- text: hello
+  url: /index.html
+- text: about
+  url: /about.html
+---
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <title>{{ page.title }}</title>
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="width">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <!-- syntax highlighting CSS -->
+        <!--<link rel="stylesheet" href="/css/syntax.css">-->
+
+        <link rel="stylesheet" href="/css/main.css">
+
+        <script type="text/javascript" src="//use.typekit.net/gku5svr.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    </head>
+    <body>
+        <aside>
+            <header>
+                <h1 class="site-title"><a href="/">mike arvela</a></h1>
+                <h3 class="site-subtitle">web enthusiast &amp; rather nice guy</h3>
+            </header>
+
+            {% include navi.ext %}
+            {% include posts.ext %}
+
+            <!--
+            {% include also.ext %}
+            {% include contact.ext %}
+            -->
+        </aside>
+
+        <article class="content">
+          {{ content }}
+        </article>
+
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-315559-2']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        </script>
+        <script src="/js/instantclick.min.js" data-no-instant></script>
+        <!--<script data-no-instant>InstantClick.init();</script>-->
+    </body>
+</html>

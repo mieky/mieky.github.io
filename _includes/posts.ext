@@ -1,0 +1,9 @@
+
+<section class="links posts">
+    <h3 class="section-title">posts</h3>
+    {% for post in site.posts %}
+    <a class="nav-item{% if page.url == post.url %} selected{% endif %}" href="{{ post.url }}" data-instant>{{ post.title }}</a>
+    {% endfor %}
+
+
+</section>
