@@ -6,4 +6,3 @@ encoding: UTF-8
 permalink: /:title
 safe: true
 lsi: false
-
