@@ -1,6 +1,7 @@
 /* variables */
 
 $pink: #f92672;
+$text-color: #8c8c8c;
 $spacing: 30px;
 
 /* clearfix */
@@ -75,7 +76,7 @@ p {
 }
 
 .section-title {
-    color: #999;
+    color: $text-color;
 }
 
 /* actual */
@@ -90,7 +91,7 @@ html {
 body {
     font-family: "faricy-new-web", sans-serif;
     font-size: 16px;
-    color: #999;
+    color: $text-color;
 }
 
 aside {
