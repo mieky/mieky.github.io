@@ -1,7 +1,7 @@
 ---
 layout: post
 title: about
-date: 2014-02-25
+# date: 2014-02-25
 ---
 
 Long story short, I grew up in southern Finland, played a lot of videogames, ran my own BBS, played a little basketball, did well at school, moved on my own, went to the army, started working with the web, got married to a lovely girl, graduated, got two dogs, became a husband and a dad.

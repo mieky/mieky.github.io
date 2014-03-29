@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ... says hi!
+site_title: Mike says hi!
 ---
 
 I'm Mike, a geek and dad from Tampere, Finland.
