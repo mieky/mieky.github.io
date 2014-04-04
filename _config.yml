@@ -6,4 +6,4 @@ encoding: UTF-8
 permalink: /:title
 safe: true
 lsi: false
-include: .well-known/keybase.txt
+include: .well-known
