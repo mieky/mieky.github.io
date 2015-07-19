@@ -1,9 +1,9 @@
-
 <section class="links posts">
-    <h3 class="section-title">posts</h3>
+    <h3 class="section-title">Posts</h3>
     {% for post in site.posts %}
-    <a class="nav-item{% if page.url == post.url %} selected{% endif %}" href="{{ post.url }}" data-instant>{{ post.title }}</a>
+    <div class="nav-item{% if page.url == post.url %} selected{% endif %}">
+        <span class="post-date">{{post.date | date: '%Y/%m' }}</span>
+        <a href="{{ post.url }}" data-instant>{{ post.title }}</a>
+    </div>
     {% endfor %}
-
-
 </section>

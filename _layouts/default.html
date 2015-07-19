@@ -31,7 +31,7 @@ navigation:
         <link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png" sizes="96x96">
         <link rel="icon" type="image/png" href="/images/favicon/favicon-16x16.png" sizes="16x16">
         <link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png" sizes="32x32">
-        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-TileColor" content="#f92672">
         <meta name="msapplication-TileImage" content="/images/favicon/mstile-144x144.png">
 
         <script type="text/javascript" src="//use.typekit.net/gku5svr.js"></script>
@@ -41,17 +41,19 @@ navigation:
 
         <aside>
             <header>
-                <h1 class="site-title"><a href="/">mike arvela</a></h1>
+                <h1 class="site-title"><a href="/">mike</a></h1>
                 <h3 class="site-subtitle">web enthusiast &amp; rather nice guy</h3>
             </header>
-
-            {% include navi.ext %}
-            {% include posts.ext %}
         </aside>
 
         <article class="content">
           {{ content }}
         </article>
+
+        <aside>
+            {% comment %}{% include navi.ext %}{% endcomment %}
+            {% include posts.ext %}
+        </aside>
 
         <script type="text/javascript">
         var _gaq = _gaq || [];

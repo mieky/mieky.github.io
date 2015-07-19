@@ -1,0 +1,49 @@
+/* clearfix */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+body {
+    margin: 0;
+}
+
+a, a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    list-style-position: outside;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+h1 a { text-decoration: none; }
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+p {
+    margin: 0;
+}
