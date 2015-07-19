@@ -37,6 +37,11 @@ a:hover {
     text-decoration: underline;
 }
 
+a.back-link {
+    display: block;
+    margin: 30px 0 10px 0;
+}
+
 ul > ul {
     margin-left: $spacing;
 }
@@ -65,13 +70,8 @@ nav {
 
 .site-title {
     font-size: 50px;
-    margin-bottom: 0;
+    margin-bottom: 30px;
     white-space: nowrap;
-}
-
-.site-subtitle {
-    display: none;
-    margin-bottom: $spacing;
 }
 
 .contact-details {
@@ -107,6 +107,10 @@ nav {
 
 .content-meta {
     margin: 0 0 25px 0;
+
+    &:empty {
+        display: none;
+    }
 }
 
 blockquote {

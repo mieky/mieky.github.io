@@ -1,9 +1,14 @@
 ---
 layout: default
 ---
+
 {% if page.title %}<h2 class="content-title">{{ page.title }}</h2>{% endif %}
 <h4 class="content-meta">{{ page.date | date: "%Y-%m-%d" }}</h4>
 
 <div class="post">
 {{ content }}
 </div>
+
+{% if page.url != "/index.html" %}
+    <a class="back-link" href="/">&laquo; Back to front page</a>
+{%endif%}
