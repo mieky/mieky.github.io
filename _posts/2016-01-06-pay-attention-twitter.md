@@ -7,7 +7,6 @@ tags:
 - service design
 - rant
 redirect_from:
-- /pay-attention-twitter/
 - /testingyo/
 ---
 
