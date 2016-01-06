@@ -40,16 +40,16 @@ This tweet sums it up with extraordinary finesse:
 
 <a href="https://twitter.com/kept_simple/status/684423616793034760"><img src="/images/twitter-well-put.png" /></a>
 
-The casual user will be happy on the free tier just like before. Even if Twitter got one percent of its population to pay a modest amount of say, $1 a month, it would amount to three million dollars.
+The casual user will be happy on the free tier just like before. Even if Twitter got one percent of its population to pay a modest amount of say, $1 a month, it would amount to three million dollars. As <a href="https://twitter.com/anttti">@anttti</a> pointed out, however, the Venture Capital scene is its own world. In that world, in my opinion, the end users rarely win. As long as Twitter is able to get funding by promising to out-innovate Facebook and capitalize on selling their users' data, it's unlikely they will do what would actually be good for the service. Hand on your heart, who hasn't had their favorite service sold to a bigger company and then shut down?
 
-What would paying get one, then?
+Back to where we were. What would paying get one, then?
 
 - **No ads.** Why ridicule people with this crap if they're willing to pay to make it go away?
 - **Scheduling** or buffering tweets right from the client.
 - Native integration to bookmarking and **read-it-later** type services.
 - Ability to use Twitter with **3rd party clients**. Yes. Win-win! No more crippled interface for Tweetbot. It's power users who pay for their clients anyway.
 - **Mute and filter** tags and topics. No more noise such as the Swarm check-ins, *I just earned a badge!*, #mandatorygymtweet from otherwise reasonable people.
-- Access to detailed tweet **statistics**, focus group information, follower optimization tools.
+- Access to detailed tweet **statistics** (like everyone apparently now do <a href="https://analytics.twitter.com/user/mieky/home">for free</a>), focus group information, follower optimization tools.
 
 It makes no sense for Twitter to make it difficult to get people to extract information from their service. Developers will want to get past clumsy embed codes. Twitter should open up a free-to-access API for extracting tweet data. Being too protective will only drive users to other services. Embrace users by embracing third-party developers!
 
@@ -75,7 +75,7 @@ Twitter becomes most useful once you find people to follow who keep on bringing 
 
 Rumors about Twitter changing how their timeline algorithm works has gotten people on their toes. I'm pretty confident it will eventually make things better and not worse, considering I already miss many interesting items on my timeline just because of the sheer volume of information I need to manually go through. It all boils down to using computers for what they're good at.
 
-I believe Twitter already has many of the building blocks in place. They should stop fooling around, concentrate on making users happy, and the rest will follow.
+I believe Twitter already has many of the building blocks in place. They should stop fooling around, concentrate on making users happy, and the rest will follow. I'm hoping to tweet about how that turned out in ten years' time.
 
 Related:
 
