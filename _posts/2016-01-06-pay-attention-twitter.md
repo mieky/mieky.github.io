@@ -55,9 +55,7 @@ Back to where we were. What would paying get one, then?
 
 It makes no sense for Twitter to make it difficult to get people to extract information from their service. Developers will want to get past clumsy embed codes. Twitter should open up a free-to-access API for extracting tweet data. Being too protective will only drive users to other services. Embrace users by embracing third-party developers!
 
-### Other improvements
-
-What else is there in the core to improve?
+### What else is there to improve?
 
 Twitter could make better use of the 140 characters: cut some slack and allow more links and usernames into the total character count. It's not an SMS any more.
 
