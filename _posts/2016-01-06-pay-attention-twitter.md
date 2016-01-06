@@ -24,11 +24,9 @@ A month ago I got fed up with ads on my timeline, like this:
 
 <img src="/images/twitter-xamarin-tweet.jpg" alt="" />
 
-... and like this:
+... and some stupid mobile game with In-App Purchases I'm never going to try, and then another, and another. I lost count...
 
-<ad-2>
-
-... and bought the new version of Tweetbot. It's a great client with some nifty UI tricks and features, but somehow I just felt not in control. It's hard to pinpoint, but the level of awareness one gets from the official client in terms of how people react to your tweets is superior. I don't blame the authors, as they are forced to work with a crippled-down version of the Twitter API.
+... and bought the new version of Tweetbot. It's a great client with some nifty UI tricks and features, including not showing any ads like the official client does! I tried my best to get by, but somehow I just felt not in control. It's hard to pinpoint, but the level of awareness one gets from the official client in terms of how people react to your tweets is superior. I don't blame the authors, as they are forced to work with a crippled-down version of the Twitter API.
 
 You can stomach only so many ads. When you see an ad for the first time, it's a minor annoyance, but repeated non-relevant ads quickly become irritating to the point where you need to go get coffee to cool down.
 
@@ -73,7 +71,7 @@ I'm pretty sure CEO Jack has a good idea of what Twitter is good at. From my poi
 
 For example, Twitter's search at <a href="https://search.twitter.com/">search.twitter.com</a> is unbelievable. From the ludicrous amounts of data that Twitter stores each second, you only need to remember one keyword and you can find year-old tweets in an instant. *"I once tweeted this cool imagemagick script, let's see if I can <a href="https://twitter.com/search?q=mieky%20imagemagick&src=typd">find it</a>..."*
 
-Twitter becomes most useful once you find people to follow that keep on bringing relevant content to your timeline. It could be easier to maintain and discover followees, though. Who are my friends following whom I retweet all the time? What are the keywords that are most likely to trigger likes from me? This information is all in there to be found and put into use.
+Twitter becomes most useful once you find people to follow who keep on bringing relevant content to your timeline. It could be easier to maintain and discover followees, though. Who are my friends following whom I retweet all the time? What are the keywords that are most likely to trigger likes from me? This information is all in there to be found and put into use.
 
 Rumors about Twitter changing how their timeline algorithm works has gotten people on their toes. I'm pretty confident it will eventually make things better and not worse, considering I already miss many interesting items on my timeline just because of the sheer volume of information I need to manually go through. It all boils down to using computers for what they're good at.
 
