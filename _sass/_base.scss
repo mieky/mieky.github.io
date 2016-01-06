@@ -142,6 +142,14 @@ hr {
     p:last-child {
         margin-bottom: 0;
     }
+
+    p img {
+        width: 100%;
+    }
+
+    p + h3 {
+        margin-top: 40px;
+    }
 }
 
 .content-title {
@@ -158,12 +166,40 @@ hr {
 }
 
 blockquote {
-    font-style: italic;
     line-height: $line-height;
-    border-left: 5px solid #ddd;
-    padding-left: 20px;
     margin-left: 0;
     margin-right: 0;
+    margin: 0 $spacing 1.5em 0;
+    padding: 1.0em 1.0em 1.5em;
+
+    background: #f9f9f9;
+    color: $text-color-light;
+    font-style: italic;
+    font-family: georgia;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    padding: 0 10px 0 25px;
+}
+
+blockquote p:first-child:last-child {
+    margin-top: -1.2em;
+    margin-left: 0.7em;
+}
+
+ul li {
+    margin-bottom: 5px;
 }
 
 .twitter-logo {
@@ -173,9 +209,9 @@ blockquote {
 
 .twitter-highlight {
     margin: 30px 30px 40px 0;
-    padding: 20px 20px;
+    // padding: 20px 20px;
+    // background-color: #f0f0f0;
     color: $text-color-light;
-    background-color: #f0f0f0;
 
     a {
         color: $text-color-light;
