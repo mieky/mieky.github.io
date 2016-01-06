@@ -2,8 +2,10 @@
 layout: default
 ---
 
-<h2 class="content-title">{{ page.title }}</h2>
-<h4 class="content-meta">{{ page.date | date: "%Y-%m-%d" }}</h4>
+<div class="post-meta">
+    <h2 class="content-title">{{ page.title }}</h2>
+    <h4 class="content-meta">Posted {{ page.date | date: "%Y-%m-%d" }}</h4>
+</div>
 
 <div class="post">
 {{ content }}
@@ -11,7 +13,7 @@ layout: default
 
 <div class="twitter-highlight">
     <img class="twitter-logo" src="/assets/twitter.svg" />
-    I'm <a href="https://twitter.com/mieky">@mieky</a> on Twitter. Come say hi!    
+    I'm <a href="https://twitter.com/mieky">@mieky</a> on Twitter. Come say hi!
 </div>
 
 {% if page.url != "/index.html" %}

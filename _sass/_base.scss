@@ -15,7 +15,7 @@ body {
     position: absoute;
     top: 0;
     bottom: 0;
-    padding: $spacing $spacing $spacing $spacing*1.5;
+    padding: $body-spacing;
 
     font-family: "faricy-new-web", sans-serif;
     font-size: 16px;
@@ -26,7 +26,16 @@ h1, h2, h3, h4 {
     color: $pink;
     font-weight: normal;
     font-family: "faricy-new-web", sans-serif;
-    margin: 0 0 $spacing 0;
+    margin: $spacing 0 $spacing*1.5 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+h3 {
+    color: $text-color-dark;
+    font-weight: bold;
 }
 
 a, a:link, a:visited, a:active {
@@ -99,6 +108,18 @@ nav {
 .links {
     line-height: $line-height;
     margin-bottom: 20px;
+}
+
+hr {
+    margin: 30px 0 35px 0;
+    border: 0;
+    border-bottom: 1px dotted lightpink;
+    display: block;
+}
+
+.post-meta {
+    margin-bottom: 50px;
+    //border-bottom: 1px dotted lightpink;
 }
 
 .post-date {
