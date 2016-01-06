@@ -20,11 +20,11 @@ Twitter's CEO Jack Dorsey weighed in tongue-in-cheek - *with an image embedded i
 
 I have been an active Twitter user since 2008. Had I known back then it will still be relevant ten years into the future, <a href="https://twitter.com/mieky/status/947951002">my first tweet</a> might have been wittier. TweetDeck served me fine for a time, but at some point Twitter suffered what I consider a horrible brain-fart and turned downright hostile towards external client developers. I've stuck with the official Twitter clients thereafter.
 
-A month ago I got fed up with ads on my timeline, like this:
+A month ago I got fed up with ads on my timeline. They are like this:
 
 <img src="/images/twitter-xamarin-tweet.jpg" alt="" />
 
-... and some stupid mobile game with In-App Purchases I'm never going to try, and then another, and another. I lost count...
+... or some stupid mobile game with In-App Purchases that's a clone of another with the same gameplay and graphics I'm never going to try, and then another, and another. At some point I lost count...
 
 ... and bought the new version of Tweetbot. It's a great client with some nifty UI tricks and features, including not showing any ads like the official client does! I tried my best to get by, but somehow I just felt not in control. It's hard to pinpoint, but the level of awareness one gets from the official client in terms of how people react to your tweets is superior. I don't blame the authors, as they are forced to work with a crippled-down version of the Twitter API.
 
@@ -40,7 +40,9 @@ This tweet sums it up with extraordinary finesse:
 
 <a href="https://twitter.com/kept_simple/status/684423616793034760"><img src="/images/twitter-well-put.png" /></a>
 
-The casual user will be happy on the free tier just like before. Even if Twitter got one percent of its population to pay a modest amount of say, $1 a month, it would amount to three million dollars. As <a href="https://twitter.com/anttti">@anttti</a> pointed out, however, the Venture Capital scene is its own world. In that world, in my opinion, the end users rarely win. As long as Twitter is able to get funding by promising to out-innovate Facebook and capitalize on selling their users' data, it's unlikely they will do what would actually be good for the service. Hand on your heart, who hasn't had their favorite service sold to a bigger company and then shut down?
+The casual user will be happy on the free tier just like before. Even if Twitter got one percent of its population to pay a modest amount of say, $1 a month, it would amount to three million dollars.
+
+As <a href="https://twitter.com/anttti">@anttti</a> pointed out, however, the Venture Capital scene is its own world. In that world, in my opinion, the users rarely win. As long as Twitter is able to get funding by promising to out-innovate Facebook and capitalize on selling their users' data, it's unlikely they will do what would actually be good for the people using the service. Hand on your heart, who hasn't had their favorite service sold to a bigger company and then shut down?
 
 Back to where we were. What would paying get one, then?
 
@@ -49,7 +51,7 @@ Back to where we were. What would paying get one, then?
 - Native integration to bookmarking and **read-it-later** type services.
 - Ability to use Twitter with **3rd party clients**. Yes. Win-win! No more crippled interface for Tweetbot. It's power users who pay for their clients anyway.
 - **Mute and filter** tags and topics. No more noise such as the Swarm check-ins, *I just earned a badge!*, #mandatorygymtweet from otherwise reasonable people.
-- Access to detailed tweet **statistics** (like everyone apparently now do <a href="https://analytics.twitter.com/user/mieky/home">for free</a>), focus group information, follower optimization tools.
+- Access to detailed tweet **statistics** (like everyone apparently now do <a href="https://analytics.twitter.com/">for free</a>), focus group information, follower optimization tools.
 
 It makes no sense for Twitter to make it difficult to get people to extract information from their service. Developers will want to get past clumsy embed codes. Twitter should open up a free-to-access API for extracting tweet data. Being too protective will only drive users to other services. Embrace users by embracing third-party developers!
 
@@ -63,7 +65,7 @@ Anyone who ever participated in a Twitter conversation with more than two people
 
 Also, there should be meaningful previews for all popular media types. There was a time Instagram images were previewed in the official clients, but then Facebook happened, Twitter removed the previews, and users lost.
 
-Considering the size of the actual 140-character content of a single tweet, the <a href="https://dev.twitter.com/overview/api/tweets">size of its API response</a> is overwhelming. Having once developed a small client application, one could have easily included many Super Marios in the simplest API response. Big amounts of bandwidth could be saved by cutting down on metadata - at a minimum developers should be allowed the option to filter much of it.
+Considering the size of the actual 140-character content of a single tweet, the <a href="https://dev.twitter.com/overview/api/tweets">size of its API response</a> is overwhelming. Having once developed a small client application, one could have easily included <a href="http://i.imgur.com/3TtTwrU.jpg">many Super Marios</a> in the simplest API response. Big amounts of bandwidth could be saved by cutting down on metadata - at a minimum developers should be allowed the option to filter much of it.
 
 ### New ground
 
