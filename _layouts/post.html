@@ -4,11 +4,14 @@ layout: default
 
 <div class="post-meta">
     <h2 class="content-title">{{ page.title }}</h2>
-    <h4 class="content-meta">Posted {{ page.date | date: "%Y-%m-%d" }}</h4>
+
+    {% if page.date != nil %}
+        <h4 class="content-meta">Posted {{ page.date | date: "%Y-%m-%d" }}</h4>
+    {% endif %}
 </div>
 
 <div class="post">
-{{ content }}
+{{ content}}
 </div>
 
 <div class="twitter-highlight">
@@ -18,4 +21,4 @@ layout: default
 
 {% if page.url != "/index.html" %}
     <a class="back-link" href="/">&laquo; Back to front page</a>
-{%endif%}
+{% endif %}

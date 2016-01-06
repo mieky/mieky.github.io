@@ -1,6 +1,6 @@
 ---
 layout: post
-title: a short history
+title: A short history
 # date: 2014-02-25
 ---
 
