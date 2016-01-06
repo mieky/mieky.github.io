@@ -14,7 +14,7 @@ redirect_from:
 
 If you remember mentioning that to someone, I won't hold it against you. Twitter is a platform quite unlike any other, and that is both its strength and challenge. It has come a long way since its inception in 2006 (<a href="/images/twitter-homepage-2006.png" alt="Twitter back in 2006" title="you'll never be bored again... right.">never get bored again, right?</a>), but lately its journey has been turbulent, to say the least.
 
-Twitter has been criticized about more things than I care to mention here: neglected official clients, hostility towards third party developers, increasing number of ads, breaking links with shorteners, etc. People are worried about Twitter ruining their the core of their service in an attempt to become more like Facebook:  *they grow, so we need to grow, too!*
+Twitter has been criticized about more things than I care to mention here: neglected official clients, hostility towards third party developers, increasing number of ads, breaking links with shorteners, etc. People are worried about Twitter ruining the core of their service in an attempt to become more like Facebook:  *they grow, so we need to grow, too!*
 
 Twitter's CEO Jack Dorsey weighed in tongue-in-cheek - *with an image embedded into his <a href="https://twitter.com/jack/status/684496529621557248">tweet</a>, take note!* - to convince people they still know what they're good for. Since it's been a long time since they gave any hints on their capabilities to improve, I want to propose some ideas of my own.
 
