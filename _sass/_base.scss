@@ -46,6 +46,12 @@ ul > ul {
     margin-left: $spacing*2;
 }
 
+header {
+    background-color: #f92672;
+    color: white;
+    padding: 15px;
+}
+
 nav {
     margin-bottom: $spacing*2;
 }
@@ -72,6 +78,17 @@ nav {
     font-size: 50px;
     margin-bottom: 30px;
     white-space: nowrap;
+}
+
+.face {
+    background-image: url(/images/face.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    border: 1px solid #ccc;
+    display: inline-block;
 }
 
 .contact-details {
