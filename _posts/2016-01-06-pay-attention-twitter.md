@@ -6,6 +6,9 @@ tags:
 - twitter
 - service design
 - rant
+redirect_from:
+- /pay-attention-twitter/
+- /testingyo/
 ---
 
 > I don't get Twitter... it's just people telling what they had for lunch.
