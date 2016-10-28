@@ -1,0 +1,29 @@
+<section class="links projects">
+    <h3 class="section-title">Projects</h3>
+
+    <div class="items">
+        <div class="nav-item">
+            <a class="project-name" href="http://mike.fi/giffel">giffel</a>
+            Perfect loops! Full screen!
+        </div>
+        <div class="nav-item">
+            <a href="http://mike.fi/litti" class="project-name">litti</a>
+            Write audio transcripts in the browser
+        </div>
+        <div class="nav-item">
+            <a href="http://mike.fi/pulinaboksi" class="project-name">pulinaboksi</a>
+            A toy for teaching keyboard keys for Finnish kids
+        </div>
+        <div class="nav-item">
+            <a href="http://mike.fi/sideshow/?delay=5&refresh=30&sites=http://chilicorn.org,http://www.futurice.com" class="project-name">sideshow</a>
+            Minimal URL-based dashboard-as-a-service
+        </div>
+        <div class="nav-item">
+            <a href="http://mike.fi/timepie" class="project-name">timepie</a>
+            Pie-shaped egg timer, because why not
+        </div>
+    </div>
+    
+    <p>Sources <a href="https://github.com/mieky">on GitHub</a>.</p>
+
+</section>
