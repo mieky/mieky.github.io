@@ -1,6 +1,6 @@
 name: Mike Arvela
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 timezone: Europe/Helsinki
 encoding: UTF-8
 permalink: /:title
