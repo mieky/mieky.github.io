@@ -5,9 +5,13 @@ layout: default
 <div class="post-meta">
     <h2 class="content-title">{{ page.title }}</h2>
 
-    {% if page.date != nil %}
-        <h4 class="content-meta">Posted {{ page.date | date: "%Y-%m-%d" }}</h4>
+    <h4 class="content-meta">
+    {% if page.last-modified-at != nil %}
+        Updated on {{ page.last-modified-at | date: "%B %d, %Y" }}
+    {% elsif page.date != nil %}
+        Posted on {{ page.date | date: '%B %d, %Y' }}</h4>
     {% endif %}
+    
 </div>
 
 <div class="post">
