@@ -1,6 +1,6 @@
 ---
 layout: default
-site_title: Mike says hi!
+site_title: Mike Arvela
 ---
 
 <h1 class="site-title">Hi there!</h1>

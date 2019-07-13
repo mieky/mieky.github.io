@@ -57,8 +57,13 @@ navigation:
           {{ content }}
         </article>
 
+        {% comment %}
+            Only include links on front page.
+        {% endcomment %}
+        {% if page.id == nil %}
         <aside>{% include posts.ext %}</aside>
         <aside>{% include projects.ext %}</aside>
+        {% endif %}
 
         <script type="text/javascript">
         var _gaq = _gaq || [];
