@@ -54,13 +54,14 @@ navigation:
     </head>
     <body>
         <article class="content">
-          {{ content }}
+            {{ content }}
         </article>
 
         {% comment %}
             Only include links on front page.
         {% endcomment %}
-        {% if page.id == nil %}
+
+        {% if page.url == '/' %}
         <aside>{% include posts.ext %}</aside>
         <aside>{% include projects.ext %}</aside>
         {% endif %}

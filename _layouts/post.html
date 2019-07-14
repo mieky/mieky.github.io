@@ -11,18 +11,18 @@ layout: default
     {% elsif page.date != nil %}
         Posted on {{ page.date | date: '%B %d, %Y' }}</h4>
     {% endif %}
-    
+
 </div>
 
 <div class="post">
 {{ content }}
 </div>
 
+{% if page.url != "/index.html" %}
+    <a class="back-link" href="/">&laquo; Back to front page</a>
+{% endif %}
+
 <div class="twitter-highlight">
     <img class="twitter-logo" src="/assets/twitter.svg" />
     I'm <a href="https://twitter.com/mieky">@mieky</a> on Twitter. Come say hi!
 </div>
-
-{% if page.url != "/index.html" %}
-    <a class="back-link" href="/">&laquo; Back to front page</a>
-{% endif %}
