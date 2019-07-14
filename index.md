@@ -7,7 +7,7 @@ site_title: Mike Arvela
 
 <p class="intro-line">My name is Mike Arvela.</p>
 
-I'm a geek and a family guy from Tampere, one of the finest towns in Northern Europe. I work with software at [HERE Technologies](https://www.here.com). Before that I was with [Futurice](https://www.futurice.com/) for close to ten years.
+I'm a geek and a family guy from Tampere, one of the finest towns in Northern Europe. I work with software at [HERE Technologies](https://www.here.com/). Before that I was with [Futurice](https://www.futurice.com/) for close to ten years.
 
 I'm thrilled to work in the intersection of technology and people. I enjoy creating stellar software as well as helping people discover new ideas.
 
