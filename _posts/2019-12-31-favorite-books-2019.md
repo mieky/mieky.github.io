@@ -22,7 +22,7 @@ Reading Range felt empowering, the same way I remember Dan Pink's Drive having f
 
 > John Perry did two things on his 75th birthday. First he visited his wife's grave. Then he joined the army.
 
-A great, light sci-fi war story. Made me laugh and care for the characters. I understood this was originally meant to be a single book, but turned out to be a total of six books.
+A great, light sci-fi war story. Made me laugh and care for the characters. I understood this was originally meant to be a single book, but turned out into a six-book series.
 
 **Lori Gottlieb - Maybe You Should Talk To Someone**
 
