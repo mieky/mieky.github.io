@@ -26,7 +26,7 @@ A great, light sci-fi war story. Made me laugh and care for the characters. I un
 
 **Lori Gottlieb - Maybe You Should Talk To Someone**
 
-Lori Gottlieb has a background writing for Hollywood, and it shows. This book is both really well composed, as well as a super interesting peek into the human condition. The author tells what it's like to be a shrink in Los Angeles, and tells heartwarming (as well as heartbreaking) stories from her actual patients.
+Lori Gottlieb has a background writing for Hollywood, and it shows. This book is both really well composed, as well as a super interesting peek into the human condition. The author tells what it's like to be a shrink in Los Angeles (as well as a client of one), and tells heartwarming stories from her actual patients.
 
 ---
 
