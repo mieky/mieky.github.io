@@ -14,7 +14,7 @@ This past year I read (and listened to!) more books than ever. Here are my favor
 
 The host of The Daily Show writes about his childhood in South Africa during Apartheid. While fascinating and even a bit educational, this is possibly the funniest book I've ever read.
 
-**David Esptein - Range**
+**David Epstein - Range**
 
 Reading Range felt empowering, the same way I remember Dan Pink's Drive having felt back a few years ago. Its premise is that generalists are often able to make use of their past experiences in new domains, and how it's never too late to acquire new skills. It's packed with interesting tales and anecdotes of both specialists and generalists, including late bloomers. I want to believe!
 
@@ -30,6 +30,6 @@ Lori Gottlieb has a background writing for Hollywood, and it shows. This book is
 
 ---
 
-There were some other really quite good ones as well, and many of those for quite varying reasons. Educated was raw, Subscribed and The Mom Test insightful, Creativity, Inc. fascinating. I'm yet to finish Refactoring UI, but it's a brilliant piece of work for anyone doing web development.
+There were some other really quite good ones as well, and many of those for quite varying reasons. *Educated* was raw, *Subscribed* and *The Mom Test* insightful, *Creativity, Inc.* fascinating. I'm yet to finish *Refactoring UI*, but it's a brilliant piece of work for anyone doing web development.
 
 More in [my Goodreads account](https://www.goodreads.com/user/show/1011336-mike-arvela).
