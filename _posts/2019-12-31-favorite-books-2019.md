@@ -8,7 +8,7 @@ tags:
 - favorites
 ---
 
-I read (and listened to!) more books than ever this past year. Here are my favorites from this year:
+This past year I read (and listened to!) more books than ever. Here are my favorites:
 
 **Trevor Noah - Born A Crime**
 
@@ -27,6 +27,8 @@ A great, light sci-fi war story. Made me laugh and care for the characters. I un
 **Lori Gottlieb - Maybe You Should Talk To Someone**
 
 Lori Gottlieb has a background writing for Hollywood, and it shows. This book is both really well composed, as well as a super interesting peek into the human condition. The author tells what it's like to be a shrink in Los Angeles, and tells heartwarming (as well as heartbreaking) stories from her actual patients.
+
+---
 
 There were some other really quite good ones as well, and many of those for quite varying reasons. Educated was raw, Subscribed and The Mom Test insightful, Creativity, Inc. fascinating. I'm yet to finish Refactoring UI, but it's a brilliant piece of work for anyone doing web development.
 
