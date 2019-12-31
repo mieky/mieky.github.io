@@ -16,7 +16,7 @@ The host of The Daily Show writes about his childhood in South Africa during Apa
 
 **David Epstein - Range**
 
-Reading Range felt empowering, the same way I remember Dan Pink's Drive having felt back a few years ago. Its premise is that generalists are often able to make use of their past experiences in new domains, and how it's never too late to acquire new skills. It's packed with interesting tales and anecdotes of both specialists and generalists, including late bloomers. I want to believe!
+Reading Range felt empowering, the same way I remember Dan Pink's Drive having felt back a few years ago. Its premise is that generalists are often able to make use of their past experiences in new domains, and  it's never too late to acquire new skills. It's packed with interesting tales and anecdotes of both specialists and generalists, including late bloomers. I want to believe!
 
 **John Scalzi - Old Man's War**
 
