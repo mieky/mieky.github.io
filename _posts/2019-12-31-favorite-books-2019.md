@@ -30,6 +30,6 @@ Lori Gottlieb has a background writing for Hollywood, and it shows. This book is
 
 ---
 
-There were some other really quite good ones as well, and many of those for quite varying reasons. *Educated* was raw, *Subscribed* and *The Mom Test* insightful, *Creativity, Inc.* fascinating. I'm yet to finish *Refactoring UI*, but it's a brilliant piece of work for anyone doing web development.
+There were some other really good ones as well, and many of those for quite varying reasons. **Educated** was raw, **Subscribed** and **The Mom Test** insightful, **Creativity, Inc.** fascinating. I'm yet to finish **Refactoring UI**, but it's a brilliant piece of work for anyone doing web development.
 
 More in [my Goodreads account](https://www.goodreads.com/user/show/1011336-mike-arvela).
