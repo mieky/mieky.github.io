@@ -5,9 +5,9 @@ site_title: Mike Arvela
 
 <h1 class="site-title">Hi there!</h1>
 
-<p class="intro-line">My name is Mike Arvela.</p>
+<p class="intro-line">I'm Mike Arvela.</p>
 
-I'm a geek and a family guy from Tampere, one of the finest towns in Northern Europe. I work with software at <a href="https://www.here.com/" class="external-link">HERE Technologies</a>. Before that I was with [Futurice](https://www.futurice.com/) for close to ten years.
+I'm a web developer and family guy from Tampere, a mighty fine town in Northern Europe. I work with location platforms at <a href="https://www.here.com/" class="external-link">HERE Technologies</a>. Before that I spent an awesome ten years at a consultancy called [Futurice](https://www.futurice.com/).
 
 I'm thrilled to work in the intersection of technology and people. I enjoy creating stellar software as well as helping people discover new ideas.
 
