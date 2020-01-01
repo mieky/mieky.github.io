@@ -1,8 +1,11 @@
-$pink: #f92672;
-$text-color: #8c8c8c;
-$text-color-light: #b0b0b0;
-$text-color-dark: #808080;
+$pink: hsl(300, 85%, 85%); // #f92672;
+$blue: hsl(200, 55%, 55%);
+
+$text-color: hsl(220, 20%, 40%); // #8c8c8c;
+$text-color-heading: hsl(205, 50%, 60%);
+$text-color-light: hsl(220, 20%, 50%);
+$text-color-dark: hsl(220, 20%, 30%);;
 $spacing: 1.2em;
 $body-spacing: 2.5em;
-$line-height: 1.5em;
-$text-size: 1.3em;
+$line-height: 1.75em;
+$text-size: 1.0em;

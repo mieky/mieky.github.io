@@ -2,8 +2,12 @@
 layout: default
 ---
 
-<div class="post-meta">
-    <h2 class="content-title">{{ page.title }}</h2>
+{% if page.url != "/index.html" %}
+<a class="back-link inline-block mb-10" href="/">&laquo; Back to front page</a>
+{% endif %}
+
+<header class="post-meta mb-10">
+    <h1 class="content-title mb-0">{{ page.title }}</h1>
 
     <h4 class="content-meta">
     {% if page.last-modified-at != nil %}
@@ -11,18 +15,13 @@ layout: default
     {% elsif page.date != nil %}
         Posted on {{ page.date | date: '%B %d, %Y' }}</h4>
     {% endif %}
-
-</div>
+</header>
 
 <div class="post">
 {{ content }}
 </div>
 
-{% if page.url != "/index.html" %}
-    <a class="back-link" href="/">&laquo; Back to front page</a>
-{% endif %}
-
-<div class="twitter-highlight">
-    <img class="twitter-logo" src="/assets/twitter.svg" />
+<div class="twitter-highlight my-12">
+    <img class="twitter-logo inline-block" src="/assets/twitter.svg" />
     I'm <a href="https://twitter.com/mieky">@mieky</a> on Twitter. Come say hi!
 </div>

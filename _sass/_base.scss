@@ -1,21 +1,15 @@
 @import "variables";
 
-.section-title {
-  color: $text-color;
-}
-
 html {
-  border-left: 0.5em solid $pink;
+  border-left: 0.5rem solid $blue;
   background-color: rgba(255, 255, 255, 0.8);
   min-height: 100%;
 }
 
 a:any-link {
   color: $text-color-dark;
-  display: inline-block;
   text-decoration: none;
   position: relative;
-  padding: 2px;
 }
 
 a:any-link:hover {
@@ -31,7 +25,7 @@ a:any-link::after {
   right: -0.1em;
   bottom: 0.05em;
   transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
-  background-color: rgba(249, 38, 114, 0.3);
+  background-color: hsla(200, 95.5%, 75.1%, 0.35);
 }
 
 a:hover:after {
@@ -41,10 +35,9 @@ a:hover:after {
 body {
   top: 0;
   bottom: 0;
-  padding: $body-spacing;
 
-  font-family: "faricy-new-web", sans-serif;
-  font-size: calc(13px + 0.25vw);
+  font-size: 16px;
+  font-family: 'Merriweather', serif;
   color: $text-color;
 }
 
@@ -52,50 +45,47 @@ h1,
 h2,
 h3,
 h4 {
-  color: $pink;
+  color: $text-color-heading;
   font-weight: normal;
-  font-family: "faricy-new-web", sans-serif;
-  margin: $spacing 0 $spacing 0;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 1.5rem;
 }
 
 h1 {
-  margin-top: 0;
+  font-size: 2.25rem;
+
+  @media (min-width: 768px) {
+    font-size: 2.8rem;
+  }
+}
+
+h2 {
+  font-size: 1.875rem;
 }
 
 h3 {
-  color: $text-color-dark;
-  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 h4 {
-  font-size: 1.5em;
+  font-size: 1.25rem;
 }
 
-a:hover {
-  text-decoration: underline;
+p {
+  margin-bottom: 1.5rem;
+  line-height: 1.75rem;
+
+  @media (min-width: 768px) {
+    line-height: 1.6rem;
+  }
 }
 
-a.back-link {
-  font-size: $text-size;
-  margin: $spacing * 2 0 $spacing 0;
-}
-
-ul > ul {
-  margin-left: $spacing * 2;
-}
-
-header {
-  background-color: #f92672;
-  color: white;
-  padding: 15px;
+p + h3 {
+  margin-top: 1rem;
 }
 
 nav {
   margin-bottom: $spacing * 2;
-}
-
-.nav-item {
-  clear: both;
 }
 
 .nav-item.selected:before {
@@ -115,156 +105,143 @@ nav {
   margin-bottom: 20px;
 }
 
-.site-title {
-  font-size: 4em;
-  font-weight: 700;
-  margin-bottom: 30px;
-  white-space: nowrap;
-}
+// .site-title {
+//   font-size: 4em;
+//   font-weight: 700;
+//   margin-bottom: 30px;
+//   white-space: nowrap;
+// }
 
-.face {
-  background-image: url(/assets/face.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 80px;
-  height: 80px;
-  border-radius: 40px;
-  border: 1px solid #ccc;
-  display: inline-block;
-}
+// .face {
+//   background-image: url(/assets/face.jpg);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   width: 80px;
+//   height: 80px;
+//   border-radius: 40px;
+//   border: 1px solid #ccc;
+//   display: inline-block;
+// }
 
-.contact-details {
-  font-size: $text-size;
-  margin: 0 0 $spacing * 2 0;
-}
+// .contact-details {
+//   font-size: $text-size;
+//   margin: 0 0 $spacing * 2 0;
+// }
 
-.links {
-  line-height: $line-height;
-  font-size: $text-size;
-  margin-bottom: 40px;
-}
+// .links {
+//   line-height: $line-height;
+//   font-size: $text-size;
+//   margin-bottom: 40px;
+// }
 
 hr {
   margin: 30px 0 35px 0;
   border: 0;
-  border-bottom: 1px dotted lightpink;
+  border-bottom: 1px dotted $blue;
   display: block;
 }
 
-.post-meta {
-  margin-bottom: 50px;
-}
+// .post-meta {
+//   margin-bottom: 50px;
+// }
 
-.post-date {
-  color: $text-color-light;
-  display: inline-block;
-  width: 6em;
+// .post-date {
+//   color: $text-color-light;
+//   display: inline-block;
+//   width: 6em;
 
-  @media (max-width: 400px) {
-    width: auto;
-    display: block;
-  }
-}
+//   @media (max-width: 400px) {
+//     width: auto;
+//     display: block;
+//   }
+// }
 
-.project-name {
-  @extend .post-date;
-  width: auto;
-}
+// .project-name {
+//   @extend .post-date;
+//   width: auto;
+// }
 
-.posts .nav-item {
-  @media (max-width: 400px) {
-    margin-bottom: 0.5em;
-  }
-}
+// .posts .nav-item {
+//   @media (max-width: 400px) {
+//     margin-bottom: 0.5em;
+//   }
+// }
 
-.projects .nav-item {
-  display: inline-block;
-  width: 6em;
+// .projects .nav-item {
+//   display: inline-block;
+//   width: 6em;
 
-  @media (max-width: 400px) {
-    display: block;
-  }
-}
+//   @media (max-width: 400px) {
+//     display: block;
+//   }
+// }
 
-.content {
-  @extend .clearfix;
-  // margin: 0 0 $spacing * 2 0;
-  margin: 0;
-  max-width: 60em; // 700px;
-
-  p {
-    line-height: $line-height;
-    font-size: $text-size;
-    margin: 0 0 $spacing 0;
-  }
-  ul li {
-    font-size: $text-size;
-  }
-
-  p:last-child {
-    margin-bottom: 0;
-  }
+// .content {
+//   @extend .clearfix;
+//   // margin: 0 0 $spacing * 2 0;
+//   margin: 0;
+//   max-width: 60em; // 700px;
 
   p img {
     width: 100%;
   }
+// }
 
-  p + h3 {
-    margin-top: 40px;
-  }
-}
+// .content-title {
+//   font-weight: 900;
+//   margin: 0 0 25px 0;
+// }
 
-.content-title {
-  font-weight: 900;
-  margin: 0 0 25px 0;
-}
+// .content-meta {
+//   margin: 0 0 25px 0;
 
-.content-meta {
-  margin: 0 0 25px 0;
-
-  &:empty {
-    display: none;
-  }
-}
+//   &:empty {
+//     display: none;
+//   }
+// }
 
 blockquote {
   line-height: $line-height;
   margin-left: 0;
   margin-right: 0;
-  margin: 0 $spacing 1.5em 0;
-  padding: 1.5em 1em 1.5em;
+  padding: 1em 0 1rem .5rem;
 
-  background: #f9f9f9;
   color: $text-color-light;
   font-style: italic;
-  font-family: georgia;
   quotes: "\201C""\201D""\2018""\2019";
 }
 
 blockquote:before {
-  color: #ccc;
+  color:hsl(200, 50%, 75%);
   content: open-quote;
 
-  font-size: 3em;
+  font-size: 3rem;
   line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
+  vertical-align: -1rem;
 }
 
 blockquote p {
-  padding: 0 10px 0 25px;
+  letter-spacing: .5px;
+  padding: 0 1em 0 2.5rem;
 }
 
-blockquote p:first-child:last-child {
-  margin-top: -1.2em;
-  margin-left: 0.7em;
+blockquote p:first-child {
+  margin-top: -1.5rem;
 }
 
-ul li {
-  line-height: 1.3em;
+ol, ul {
+  list-style-type: circle;
+  list-style-position: outside;
+  margin: 0 0 1rem 0;
+  padding: 0 0 0 1rem;
+}
 
-  @media (max-width: 400px) {
-    margin-bottom: 1em;
+li {
+  margin-bottom: 1.0rem;
+  padding-left: 1.0rem;
+  &:before {
+    // content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    // color: $blue;
   }
 }
 
@@ -274,13 +251,11 @@ ul li {
 }
 
 .twitter-highlight {
-  bottom: 0;
-  font-size: $text-size;
-  margin: 30px 30px 40px 0;
-  color: $text-color-light;
-
   a {
-    color: $pink;
+    color: $blue; // #f92672;
+    &:after {
+      background-color: hsla(200, 95.5%, 75.1%, 0.35);
+    }
   }
 }
 
@@ -290,6 +265,8 @@ a[href^="https://"]:not([href*="mike.fi"]),
 a[href^="//"]:not([href*="mike.fi"]),
 a[href*="//"]:not([href*="mike.fi"]) {
   &:after {
-    background-color: rgba(126, 234, 252, 0.5);
+    // background-color: rgba(126, 234, 252, 0.5);
+    // background-color: hsla(338.4, 94.6%, 56.3%, 0.3);
+    background-color: $pink;
   }
 }

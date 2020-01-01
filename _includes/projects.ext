@@ -1,5 +1,7 @@
 <section class="links projects">
-    <h3 class="section-title">Projects</h3>
+    <h3>Trinkets</h3>
+
+    <p>Some small novelty projects (sources <a href="https://github.com/mieky">on GitHub</a>):</p>
 
     <ul class="items">
         <li>
@@ -33,7 +35,4 @@
             <span class="description">Pie-shaped egg timer, because why not</span>
         </li>
     </ul>
-
-    <p>Sources <a href="https://github.com/mieky">on GitHub</a>.</p>
-
 </section>
