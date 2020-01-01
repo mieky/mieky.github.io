@@ -81,7 +81,7 @@ p {
 }
 
 p + h3 {
-  margin-top: 1rem;
+  margin-top: 2.25rem;
 }
 
 nav {
@@ -105,34 +105,16 @@ nav {
   margin-bottom: 20px;
 }
 
-// .site-title {
-//   font-size: 4em;
-//   font-weight: 700;
-//   margin-bottom: 30px;
-//   white-space: nowrap;
-// }
+.face {
+  box-shadow: inset 0 0 0 1px hsla(0, 0%, 0%, .1);
+  background-image: url(https://avatars.githubusercontent.com/u/299644);
+  background-size: contain;
+  transition: transform .7s ease-in-out;
 
-// .face {
-//   background-image: url(/assets/face.jpg);
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   width: 80px;
-//   height: 80px;
-//   border-radius: 40px;
-//   border: 1px solid #ccc;
-//   display: inline-block;
-// }
-
-// .contact-details {
-//   font-size: $text-size;
-//   margin: 0 0 $spacing * 2 0;
-// }
-
-// .links {
-//   line-height: $line-height;
-//   font-size: $text-size;
-//   margin-bottom: 40px;
-// }
+  &:active {
+    transform: rotate(540deg);
+  }
+}
 
 hr {
   margin: 30px 0 35px 0;
@@ -141,63 +123,9 @@ hr {
   display: block;
 }
 
-// .post-meta {
-//   margin-bottom: 50px;
-// }
-
-// .post-date {
-//   color: $text-color-light;
-//   display: inline-block;
-//   width: 6em;
-
-//   @media (max-width: 400px) {
-//     width: auto;
-//     display: block;
-//   }
-// }
-
-// .project-name {
-//   @extend .post-date;
-//   width: auto;
-// }
-
-// .posts .nav-item {
-//   @media (max-width: 400px) {
-//     margin-bottom: 0.5em;
-//   }
-// }
-
-// .projects .nav-item {
-//   display: inline-block;
-//   width: 6em;
-
-//   @media (max-width: 400px) {
-//     display: block;
-//   }
-// }
-
-// .content {
-//   @extend .clearfix;
-//   // margin: 0 0 $spacing * 2 0;
-//   margin: 0;
-//   max-width: 60em; // 700px;
-
   p img {
     width: 100%;
   }
-// }
-
-// .content-title {
-//   font-weight: 900;
-//   margin: 0 0 25px 0;
-// }
-
-// .content-meta {
-//   margin: 0 0 25px 0;
-
-//   &:empty {
-//     display: none;
-//   }
 // }
 
 blockquote {
@@ -232,8 +160,8 @@ blockquote p:first-child {
 ol, ul {
   list-style-type: circle;
   list-style-position: outside;
-  margin: 0 0 1rem 0;
-  padding: 0 0 0 1rem;
+  margin: 0 0 2rem 0;
+  padding: 0 0 0 1.5rem;
 }
 
 li {
