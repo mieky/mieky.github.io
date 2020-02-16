@@ -1,12 +1,12 @@
 <section class="links mb-10">
-    <h3>Meta</h3>
+  <h3>Meta</h3>
 
-    <p>You can also find me in:</p>
+  <p>You can also find me in:</p>
 
-    <ul>
-        <li class="mb-2"><a href="https://github.com/mieky">GitHub</a></li>
-        <li class="mb-2"><a href="https://www.goodreads.com/user/show/1011336-mike-arvela">Goodreads</a></li>
-        <li class="mb-2"><a href="https://www.linkedin.com/in/arvela">LinkedIn</a></li>
-        <li><a href="https://twitter.com/mieky">Twitter</a></li>
-    </ul>
+  <ul>
+      <li class="mb-2"><a href="https://github.com/mieky">GitHub</a></li>
+      <li class="mb-2"><a href="https://www.goodreads.com/user/show/1011336-mike-arvela">Goodreads</a></li>
+      <li class="mb-2"><a href="https://www.linkedin.com/in/arvela">LinkedIn</a></li>
+      <li><a href="https://twitter.com/mieky">Twitter</a></li>
+  </ul>
 </section>
