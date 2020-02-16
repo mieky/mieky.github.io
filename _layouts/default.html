@@ -7,63 +7,58 @@ navigation:
 ---
 <!doctype html>
 <!--
+  Hi there!
 
-    Hi there!
+  Nice of you to view the source. This site runs on the Jekyll static
+  site generator and is hosted on GitHub pages, which means you can
+  view the whole of it on my GitHub profile:
+  https://github.com/mieky/mieky.github.io
 
-    Nice of you to view the source. This site runs on the Jekyll static
-    site generator and is hosted on GitHub pages, which means you can
-    view the whole of it on my GitHub profile:
-    https://github.com/mieky/mieky.github.io
+  If you're on Twitter, come say hi:
+  https://twitter.com/mieky
 
-    If you're on Twitter, come say hi:
-    https://twitter.com/mieky
-
-    – Mike
-
+  – Mike
 -->
 <html>
-    <head
-    >
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{% if page.site_title %}{{ page.site_title }}{% else %}{{ page.title }} | {{ site.name }}{% endif %}</title>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{% if page.site_title %}{{ page.site_title }}{% else %}{{ page.title }} | {{ site.name }}{% endif %}</title>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="/css/main.css">
-        <link rel="apple-touch-icon" href="/assets/favicon-180x180.png">
-        <link rel="icon" type="image/png" href="/assets/favicon-196x196.png" sizes="180x180">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="apple-touch-icon" href="/assets/favicon-180x180.png">
+    <link rel="icon" type="image/png" href="/assets/favicon-196x196.png" sizes="180x180">
+  </head>
 
-        <link href="https://fonts.googleapis.com/css?family=Lato|Merriweather:400,400i,700&display=swap" rel="stylesheet">
-    </head>
+  <body class="m-4 sm:m-6 md:m-10">
+    <article class="content container mb-10 max-w-3xl mx-auto">
+        {{ content }}
+    </article>
 
-    <body class="m-4 sm:m-6 md:m-10">
-        <article class="content container max-w-3xl mb-10">
-            {{ content }}
-        </article>
+    {% comment %}
+        Only include links on front page.
+    {% endcomment %}
 
-        {% comment %}
-            Only include links on front page.
-        {% endcomment %}
+    {% if page.url == '/' %}
+    <aside class="mb-10 max-w-3xl mx-auto">{% include posts.ext %}</aside>
+    <aside class="mb-10 max-w-3xl mx-auto">{% include projects.ext %}</aside c>
+    <aside class="mb-10 max-w-3xl mx-auto">{% include meta.ext %}</aside>
+    {% endif %}
 
-        {% if page.url == '/' %}
-        <aside class="mb-10">{% include posts.ext %}</aside>
-        <aside class="mb-10">{% include projects.ext %}</aside c>
-        <aside class="mb-10">{% include meta.ext %}</aside>
-        {% endif %}
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-315559-2']);
+    _gaq.push(['_trackPageview']);
 
-        <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-315559-2']);
-        _gaq.push(['_trackPageview']);
-
-        (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-        </script>
-        <script src="/js/instantclick.min.js" data-no-instant></script>
-        <script data-no-instant>InstantClick.init();
-    </body>
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+    <script src="/js/instantclick.min.js" data-no-instant></script>
+    <script data-no-instant>InstantClick.init();
+  </body>
 </html>

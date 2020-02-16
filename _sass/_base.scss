@@ -7,11 +7,12 @@ html {
 
   background-image: url(/assets/dot-grid.png), url(/assets/dot-grid.png), url(/assets/dot-grid.png);
   background-repeat: no-repeat;
-  background-position: left 500px bottom -200px, left 677px bottom -46px, left 854px bottom 108px;
+  background-position: right 123px bottom -200px, right -54px bottom -46px, right -231px bottom 108px;
 }
 
 a:any-link {
   color: $text-color-dark;
+  font-size: $text-size;
   text-decoration: none;
   position: relative;
 }
@@ -29,7 +30,8 @@ a:any-link::after {
   right: -0.1em;
   bottom: 0.05em;
   transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
-  background-color: hsla(200, 95.5%, 75.1%, 0.35);
+  // background-color: hsla(200, 95.5%, 75.1%, 0.35);
+  background-color: hsla(199.8, 78%, 92%, 90%);
 }
 
 a:hover:after {
@@ -41,7 +43,7 @@ body {
   bottom: 0;
 
   font-size: 16px;
-  font-family: 'Merriweather', serif;
+  // font-family: 'Merriweather', serif;
   color: $text-color;
 }
 
@@ -50,8 +52,7 @@ h2,
 h3,
 h4 {
   color: $text-color-heading;
-  font-weight: normal;
-  font-family: 'Lato', sans-serif;
+  font-weight: bold;
   margin-bottom: 1.0rem;
 }
 
@@ -68,19 +69,20 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 h4 {
   font-size: 1.25rem;
 }
 
-p {
+p, li {
   margin-bottom: 1.5rem;
   line-height: 1.75rem;
+  font-size: $text-size;
 
   @media (min-width: 768px) {
-    line-height: 1.6rem;
+    line-height: 1.85rem;
   }
 }
 
@@ -153,7 +155,8 @@ blockquote:before {
 }
 
 blockquote p {
-  letter-spacing: .5px;
+  // font-family: 'Merriweather', serif;
+  // letter-spacing: .5px;
   padding: 0 1em 0 2.5rem;
 }
 
@@ -183,6 +186,7 @@ li {
 }
 
 .twitter-highlight {
+  font-size: $text-size;
   a {
     color: $blue; // #f92672;
     &:after {

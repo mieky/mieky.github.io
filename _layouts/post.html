@@ -7,14 +7,14 @@ layout: default
 {% endif %}
 
 <header class="post-meta mb-10">
-    <h1 class="content-title mb-0">{{ page.title }}</h1>
+  <h1 class="content-title mb-0">{{ page.title }}</h1>
 
-    <h4 class="content-meta">
-    {% if page.last-modified-at != nil %}
-        Updated on {{ page.last-modified-at | date: "%B %d, %Y" }}
-    {% elsif page.date != nil %}
-        Posted on {{ page.date | date: '%B %d, %Y' }}</h4>
-    {% endif %}
+  <h4 class="content-meta">
+  {% if page.last-modified-at != nil %}
+    Updated on {{ page.last-modified-at | date: "%B %d, %Y" }}
+  {% elsif page.date != nil %}
+    Posted on {{ page.date | date: '%B %d, %Y' }}</h4>
+  {% endif %}
 </header>
 
 <div class="post">
@@ -22,6 +22,6 @@ layout: default
 </div>
 
 <div class="twitter-highlight my-12">
-    <img class="twitter-logo inline-block" src="/assets/twitter.svg" />
-    I'm <a href="https://twitter.com/mieky">@mieky</a> on Twitter. Come say hi!
+  <img class="twitter-logo inline-block" src="/assets/twitter.svg" />
+  I'm <a href="https://twitter.com/mieky">@mieky</a> on Twitter. Come say hi!
 </div>
