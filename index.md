@@ -3,7 +3,7 @@ layout: default
 site_title: Mike Arvela
 ---
 
-<div class="face rounded-full w-16 h-16 my-6 sm:w-24 sm:h-24 inline-block"></div>
+<div class="face rounded-full w-24 h-24 my-6 inline-block"></div>
 
 <h1 class="mb-10">Hi there!</h1>
 
