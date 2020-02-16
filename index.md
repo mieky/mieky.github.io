@@ -5,7 +5,7 @@ site_title: Mike Arvela
 
 <div class="face rounded-full w-24 h-24 my-6 inline-block"></div>
 
-<h1 class="mb-10">Hi there!</h1>
+<h1 class="mb-10" title="Moro is how we say hi in Tampere!">Moro!</h1>
 
 I'm <strong>Mike Arvela</strong>, a web developer and family guy from Tampere – a mighty fine town in Northern Europe. I work with location platforms at <a href="https://www.here.com/" class="external-link">HERE Technologies</a>. Before that I spent an awesome ten years at a consultancy called [Futurice](https://www.futurice.com/).
 
