@@ -7,7 +7,7 @@ site_title: Mike Arvela
 
 <h1 class="mb-10" title="Moro is how we say hi in Tampere!">Moro!</h1>
 
-I'm <strong>Mike Arvela</strong>, a web developer and family guy from Tampere – a mighty fine town in Northern Europe. I work with the awesome team at <a href="https://linear.app">Linear</a>, bringing magic back into software development. Before that I spent an awesome ten years at a consultancy called [Futurice](https://www.futurice.com/) and a while developing location platforms at <a href="https://www.here.com/" class="external-link">HERE Technologies</a>.
+I'm <strong>Mike Arvela</strong>, a web developer and family guy from Tampere – a mighty fine town in Northern Europe. I work with the awesome team at <a href="https://linear.app">Linear</a>, bringing magic back into software development.
 
 I enjoy working with people and technology. I get kicks from both creating stellar software, as well as helping people discover new ideas.
 
