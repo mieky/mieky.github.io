@@ -1,3 +1,7 @@
+# bundler config and installed gems
+.bundle
+vendor/bundle
+
 .DS_Store
 .sass-cache
 _site
