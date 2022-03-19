@@ -1,7 +1,9 @@
 ---
-# Yo Jekyll! Include this!
+# This frontmatter is required for Jekyll to generate css/main.css.
 ---
 
-@import "reset";
 @import "base";
-@import "syntax";
+
+body {
+  color: #333333;
+}

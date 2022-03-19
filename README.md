@@ -19,7 +19,16 @@ bundle install --path vendor/bundle
 
 Then start the server:
 
-`bundle exec jekyll serve`
+```sh
+bundle exec jekyll serve
+```
+
+Or build:
+
+```sh
+bundle exec jekyll build
+```
+
 
 ## License
 

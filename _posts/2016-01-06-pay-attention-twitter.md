@@ -3,9 +3,10 @@ layout: post
 title: Pay attention, Twitter
 date: '2016-01-06T10:00:00+02:00'
 tags:
-- twitter
-- service design
+- hidden
 - rant
+- service design
+- twitter
 redirect_from:
 - /testingyo/
 ---

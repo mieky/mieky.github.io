@@ -3,13 +3,13 @@ layout: default
 ---
 
 {% if page.url != "/index.html" %}
-<a class="back-link inline-block mb-12" href="/">&laquo; Back to front page</a>
+<a class="inline-block" href="/">&laquo; Back to front page</a>
 {% endif %}
 
-<header class="post-meta mb-10">
-  <h1 class="content-title mb-0">{{ page.title }}</h1>
+<header>
+  <h1>{{ page.title }}</h1>
 
-  <h4 class="content-meta">
+  <h4>
   {% if page.last-modified-at != nil %}
     Updated on {{ page.last-modified-at | date: "%B %d, %Y" }}
   {% elsif page.date != nil %}
@@ -17,11 +17,7 @@ layout: default
   {% endif %}
 </header>
 
-<div class="post">
+<div>
 {{ content }}
 </div>
 
-<div class="twitter-highlight my-12">
-  <img class="twitter-logo inline-block" src="/assets/twitter.svg" />
-  I'm <a href="https://twitter.com/mieky">@mieky</a> on Twitter. Come say hi!
-</div>
