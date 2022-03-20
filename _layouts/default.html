@@ -9,6 +9,8 @@
 
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="apple-touch-icon" href="/assets/favicon.png">
+    <link rel="icon" type="image/png" href="/assets/favicon.png" sizes="360x360">
 
     {% comment %}
     <script src="https://cdn.tailwindcss.com"></script>
@@ -20,11 +22,8 @@
       {{ content }}
     </article>
 
-    {% comment %}
-      <!-- Hiding the old posts for now. -->
-      {% if page.url == '/' %}
-      <aside>{% include posts.ext %}</aside>
-      {% endif %}
-    {% endcomment %}
+    {% if page.url == '/' %}
+    <aside>{% include posts.ext %}</aside>
+    {% endif %}
   </body>
 </html>

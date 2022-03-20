@@ -4,7 +4,7 @@ title: My favorite books of 2019
 date: '2019-12-31T17:00:00+02:00'
 tags:
 - books
-- hidden
+# - hidden
 - goodreads
 - favorites
 ---

@@ -13,7 +13,7 @@ redirect_from:
 
 > I don't get Twitter... it's just people telling what they had for lunch.
 
-If you remember mentioning that to someone, I won't hold it against you. Twitter is a platform quite unlike any other, and that is both its strength and challenge. It has come a long way since its inception in 2006 (<a href="/images/twitter-homepage-2006.png" alt="Twitter back in 2006" title="you'll never be bored again... right.">never get bored again, right?</a>), but lately its journey has been turbulent, to say the least.
+If you remember mentioning that to someone, I won't hold it against you. Twitter is a platform quite unlike any other, and that is both its strength and challenge. It has come a long way since its inception in 2006 (<a href="/images/2016-01-06-twitter-homepage-2006.png" alt="Twitter back in 2006" title="you'll never be bored again... right.">never get bored again, right?</a>), but lately its journey has been turbulent, to say the least.
 
 Twitter has been criticized about more things than I care to mention here: neglected official clients, hostility towards third party developers, increasing number of ads, breaking links with shorteners, etc. People are worried about Twitter ruining the core of their service in an attempt to become more like Facebook:  *they grow, so we need to grow, too!*
 
@@ -25,7 +25,7 @@ I have been an active Twitter user since 2008. Had I known back then it will sti
 
 A month ago I got fed up with ads on my timeline. They are like this:
 
-<img src="/images/twitter-xamarin-tweet.jpg" alt="" />
+<img src="/images/2016-01-06-twitter-xamarin-tweet.jpg" alt="" style="width: 480px;" />
 
 ... or some stupid mobile game with In-App Purchases that's a clone of another with the same gameplay and graphics I'm never going to try, and then another, and another. At some point I lost count...
 
@@ -41,7 +41,7 @@ Not only do I benefit from Twitter professionally, learning about what's happeni
 
 This tweet sums it up with extraordinary finesse:
 
-<a href="https://twitter.com/kept_simple/status/684423616793034760"><img src="/images/twitter-well-put.png" /></a>
+<a href="https://twitter.com/kept_simple/status/684423616793034760"><img src="/images/2016-01-06-twitter-well-put.png" style="width: 480px;" /></a>
 
 The casual user will be happy on the free tier just like before. Even if Twitter got one percent of its population to pay a modest amount of say, $1 a month, it would amount to three million dollars.
 
