@@ -1,6 +1,5 @@
 ---
 layout: default
-site_title: Mike Arvela
 ---
 <h1>Hi, nice to meet you!</h1>
 

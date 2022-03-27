@@ -8,7 +8,11 @@ safe: true
 lsi: false
 include: [".well-known"]
 sass:
-    sass_dir: _sass
+  sass_dir: _sass
 plugins:
   - jekyll-redirect-from
   - jekyll-last-modified-at
+
+site_name: Mike
+site_title: Mike Arvela
+site_description: Hi! I'm Mike, a web developer from Tampere, Finland.

@@ -4,17 +4,26 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{% if page.site_title %}{{ page.site_title }}{% else %}{{ page.title }} | {{ site.name }}{% endif %}</title>
+    <title>{% if site.site_title %}{{ site.site_title }}{% else %}{{ page.title }} | {{ site.name }}{% endif %}</title>
 
-    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="{{ site.site_description }}" />
+    <meta name="twitter:site" content="{{ site.site_name }}" />
+    <meta name="twitter:card" content="home" />
+    <meta name="twitter:title" content="{{ site.site_title }}" />
+    <meta name="twitter:description" content="{{ site.site_description }}" />
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/299644?v=4?s=400" />
+    <meta property="og:image:alt" content="Mike" />
+    <meta property="og:site_name" content="{{ site.site_name }}" />
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="{{ site.site_title }}" />
+    <meta property="og:url" content="https://mike.fi" />
+    <meta property="og:description" content="{{ site.site_description }}" />
+
     <link rel="stylesheet" href="/css/main.css">
     <link rel="apple-touch-icon" href="/assets/favicon.png">
     <link rel="icon" type="image/png" href="/assets/favicon.png" sizes="360x360">
-
-    {% comment %}
-    <script src="https://cdn.tailwindcss.com"></script>
-    {% endcomment %}
+    {% comment %}<script src="https://cdn.tailwindcss.com"></script>{% endcomment %}
   </head>
 
   <body>
