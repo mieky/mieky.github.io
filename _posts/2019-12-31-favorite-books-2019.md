@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My favorite books of 2019
+description: These are my favorite books I read in 2019.
 date: '2019-12-31T17:00:00+02:00'
 tags:
 - books

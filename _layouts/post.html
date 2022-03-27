@@ -2,10 +2,6 @@
 layout: default
 ---
 
-{% if page.url != "/index.html" %}
-<a class="inline-block" href="/">&laquo; Back to front page</a>
-{% endif %}
-
 <header>
   <h1>{{ page.title }}</h1>
 
@@ -17,7 +13,12 @@ layout: default
   {% endif %}
 </header>
 
-<div>
+<section>
 {{ content }}
-</div>
+</section>
 
+{% if page.url != "/index.html" %}
+<footer>
+  <a class="inline-block" href="/">&laquo; Back home</a>
+</footer>
+{% endif %}

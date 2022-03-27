@@ -13,6 +13,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-last-modified-at
 
+site_url: https://mike.fi
 site_name: Mike
 site_title: Mike Arvela
 site_description: Hi! I'm Mike, a web developer from Tampere, Finland.
